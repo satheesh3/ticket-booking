@@ -1,0 +1,29 @@
+.show-seat {
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.show-seat__seat {
+    min-width: 75px;
+    min-height: 75px;
+    width: 40px;
+    display: flex;
+    border: 3px solid #e8e8e8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.show-seat__seat p {
+    margin: auto;
+}
+.active {
+    background-color: aliceblue;
+}
+.self {
+    background-color: greenyellow;
+}
+.booked {
+    background-color: red;
+}

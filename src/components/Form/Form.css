@@ -1,0 +1,18 @@
+.form {
+    display: flex;
+    margin-top: 20px
+}
+.form__content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: 24px;
+}
+.form__content input {
+    font-size: 24px;
+    border: 1px solid;
+}
+.form__content button {
+    font-size: 24px;
+    border: 1px solid;
+}
